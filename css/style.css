@@ -57,19 +57,19 @@ background: var(--page-color);
 
 .logo-footer {
     font-family: 'Raleway';
-        color: var(--white-color);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+        color:var(--section-backghround-color)
+            font-style; normal:
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 1.19;
+                letter-spacing: 0.03em;
 }
 
  /* Верхня лінія */
 
 
 .page {
-    background-color: var(--white-color);
+    background-color: var(--page-color)
 }
 
 .site-nav :hover :focus
@@ -145,29 +145,27 @@ color: var(--primery-text-color);
         line-height: 16px;
         letter-spacing: 0.02em;
             position: absolute;
-                width: 122px;
-                height: 16px;
-                left: 1263px;
-                top: 32px;
+            width: 122px;
+            height: 16px;
+            left: 1263px;
+            top: 32px;
  }
 
  /* Шапка */
 
+ .container {
+            color: var(--section-backghround-color);
+    background: var(--footer-color);
+ }
 
 .hero-title {
-        font-family: 'Roboto';
-        color: var(--section-backghround-color);
-        font-style: normal;
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36 ;
         text-align: center;
         letter-spacing: 0.06em;
-        text-transform: uppercase;
-        left: 28.25%;
-            right: 28.25%;
-            top: 33.33%;
-            bottom: 46.67%;
+            text-transform: uppercase;
+
 }
 
 .order-button {
@@ -178,35 +176,19 @@ color: var(--primery-text-color);
         font-weight: 700;
         font-size: 16px;
         line-height: 1.8 ;
-        display: flex;
-        align-items: center;
         text-align: center;
-        letter-spacing: 0.06em;
-        left: 45.25%;
-            right: 45.25%;
-            top: 60%;
-            bottom: 35%;
 }
 
 .hero {
-    background: var(--footer-color);
-    position: absolute;
+
     width: 1600px;
     height: 600px;
-    left: 0px;
-    top: 80px;
+
 }
 
 /* Особливості */
 
- .section .vissualy-hidden
-
 .section-title {
-    position: absolute;
-        width: 270px;
-        height: 16px;
-        left: 215px;
-        top: 774px;
     
         font-family: 'Roboto';
         font-style: normal;
@@ -218,11 +200,6 @@ color: var(--primery-text-color);
 }
 
 .subtitle {
-    position: absolute;
-        width: 270px;
-        height: 72px;
-        left: 215px;
-        top: 800px;
     
         font-family: 'Roboto';
         font-style: normal;
