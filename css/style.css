@@ -57,12 +57,12 @@ background: var(--page-color);
 
 .logo-footer {
     font-family: 'Raleway';
-        color:var(--section-backghround-color)
-            font-style; normal:
-                font-weight: 700;
-                font-size: 26px;
-                line-height: 1.19;
-                letter-spacing: 0.03em;
+        color:var(--section-backghround-color);
+    font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 
  /* Верхня лінія */
@@ -72,7 +72,8 @@ background: var(--page-color);
     background-color: var(--page-color)
 }
 
-.site-nav :hover :focus
+.page-haeder .site-nav:hover,
+.page-haeder .site-nav:focus
 {
     color: var(--blue-color);
 }
@@ -180,7 +181,7 @@ color: var(--primery-text-color);
 }
 
 .hero {
-
+text-align: center;
     width: 1600px;
     height: 600px;
 
@@ -188,23 +189,106 @@ color: var(--primery-text-color);
 
 /* Особливості */
 
-.section-title {
-    
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+.section {
+    background: var(--page-color);
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .subtitle {
-    
+    color: var(--sekondary-text-color);
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
+}
+/* УВАГА ДО ДЕТАЛЕЙ */
+.excerpt {
+position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 774px;
+}
+
+.text {
+    position: absolute;
+        width: 270px;
+        height: 72px;
+        left: 215px;
+        top: 800px;
+}
+
+/* ПУНКТУАЛЬНІСТЬ */
+.quote {
+position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 515px;
+    top: 774px;
+}
+
+.excerp {
+    position: absolute;
+        width: 270px;
+        height: 48px;
+        left: 515px;
+        top: 800px;
+}
+
+/* ПЛАНУВАННЯ */
+.slogan {
+position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 774px;
+}
+
+.lead {
+    position: absolute;
+        width: 270px;
+        height: 48px;
+        left: 815px;
+        top: 800px;
+}
+
+/* СУЧАСНІ ТЕХНОЛОГІЇ */
+.tehnology {
+position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 1115px;
+    top: 774px;
+}
+
+.tagline {
+    position: absolute;
+        width: 270px;
+        height: 72px;
+        left: 1115px;
+        top: 800px;
+}
+
+/* Чим ми займаємося */
+.subject {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+
+            width: 366px;
+            height: 42px;
+            left: 617px;
+            top: 966px;
 }
