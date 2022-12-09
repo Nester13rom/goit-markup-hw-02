@@ -6,6 +6,7 @@
 --section-backghround-color: #FFFFFF;
 --secondary-backghround-color: #F5F4FA;
 --footer-color: #2F303A;
+--button-background-color: #F5F4FA;
 }
 
 ul {
@@ -29,6 +30,7 @@ a {
 }
 
 .page {
+    font-family: 'Roboto';
 background: var(--page-color);
 }
 
@@ -37,7 +39,6 @@ background: var(--page-color);
 .logo-web {
     font-family: 'Raleway';
     color: var(--blue-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -47,7 +48,6 @@ background: var(--page-color);
 .logo-studio {
     font-family: 'Raleway';
     color: var(--primery-text-color);
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -58,7 +58,6 @@ background: var(--page-color);
 .logo-footer {
     font-family: 'Raleway';
         color:var(--section-backghround-color);
-    font-style: normal;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -81,7 +80,6 @@ background: var(--page-color);
  .site-nav .nav-list {
     font-family: 'Roboto';
     color: var(--blue-color);
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -91,7 +89,6 @@ background: var(--page-color);
  .site-nav .nav-list-clients {
 font-family: 'Roboto';
 color: var(--primery-text-color);
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -102,7 +99,7 @@ color: var(--primery-text-color);
  .site-nav .nav-list-client {
     font-family: 'Roboto';
     color: var(--primery-text-color);
-        font-style: normal;
+
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -113,7 +110,7 @@ color: var(--primery-text-color);
  .list-contacts .contacts-link {
     font-family: 'Roboto';
     color: var(--blue-color);
-        font-style: normal;
+
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
@@ -124,10 +121,10 @@ color: var(--primery-text-color);
  .list-contacts .contact-link {
         font-family: 'Roboto';
         color: var(--sekondary-text-color);
-        font-style: normal;
+
         font-weight: 500;
         font-size: 14px;
-        line-height: 16px;
+        line-height: 1.14;
         letter-spacing: 0.02em;
 
  }
@@ -153,10 +150,10 @@ color: var(--primery-text-color);
         font-family: 'Roboto';
         color: var(--white-color);
         background: var(--blue-color);
-        font-style: normal;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.8 ;
+        letter-spacing: 0.06em;
 }
 
 .hero {
@@ -171,7 +168,6 @@ color: var(--primery-text-color);
 .section {
     background: var(--page-color);
 font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -182,7 +178,6 @@ font-family: 'Roboto';
 .subtitle {
     color: var(--sekondary-text-color);
         font-family: 'Roboto';
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
@@ -191,78 +186,75 @@ font-family: 'Roboto';
 /* УВАГА ДО ДЕТАЛЕЙ */
 
 .excerpt {
-
-    width: 270px;
-    height: 16px;
-    left: 215px;
-    top: 774px;
+font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .text {
-
-        width: 270px;
-        height: 72px;
-        left: 215px;
-        top: 800px;
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03e
 }
 
 /* ПУНКТУАЛЬНІСТЬ */
 .quote {
-
-    width: 270px;
-    height: 16px;
-    left: 515px;
-    top: 774px;
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
 }
 
 .excerp {
-
-        width: 270px;
-        height: 48px;
-        left: 515px;
-        top: 800px;
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* ПЛАНУВАННЯ */
 .slogan {
-
-    width: 270px;
-    height: 16px;
-    left: 815px;
-    top: 774px;
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
 }
 
 .lead {
-
-        width: 270px;
-        height: 48px;
-        left: 815px;
-        top: 800px;
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* СУЧАСНІ ТЕХНОЛОГІЇ */
 .tehnology {
-
-    width: 270px;
-    height: 16px;
-    left: 1115px;
-    top: 774px;
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
 }
 
 .tagline {
-
-        width: 270px;
-        height: 72px;
-        left: 1115px;
-        top: 800px;
+font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 /* Чим ми займаємося */
 .subject {
-        font-family: 'Roboto';
             color: var(--primery-text-color);
-            font-style: normal;
-            font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
         text-align: center;
@@ -274,7 +266,6 @@ font-family: 'Roboto';
 .bg {
     font-family: 'Roboto';
     color: var(--primery-text-color);
-        font-style: normal;
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -285,30 +276,26 @@ font-family: 'Roboto';
 
 /* підвал*/
 
-.address {
-    font-family: 'Roboto';
-    color: var(--section-backghround-color);
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
+.addres {
+
+font-style: normal;
+color: var(--section-backghround-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .mail {
-    font-family: 'Roboto';
+
 color: rgba(255, 255, 255, 0.6);
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
 }
 
 .number {
-    font-family: 'Roboto';
     color: rgba(255, 255, 255, 0.6);
-        font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;
@@ -321,128 +308,105 @@ footer {
 
 /* Портфоліо */
 
+.body-page {
+    font-family: 'Roboto';
+    background: var(--page-color);
+    color: var(--primery-text-color);
 
+}
 
 .list-clients {
-    font-family: 'Roboto';
     color: var(--blue-color);
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
 }
 
 .nav-studio {
-        font-family: 'Roboto';
         color: #212121;
-            font-style: normal;
             font-weight: 500;
             font-size: 14px;
             line-height: 1.14;
             letter-spacing: 0.02em;
-width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
+            width: 72px;
+            height: 16px;
+            left: 548px;
+            top: 32px;
 }
 
 
 .nav-list-client {
-font-family: 'Roboto';
 color: var(--primery-text-color);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 32px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        width: 72px;
+         height: 16px;
+        left: 548px;
+        top: 32px;
 }
 
 /* кнопки */
 
 .button {
-    background-color: var(--blue-color);
-        width: 73px;
-        height: 38px;
-        top: 174px;
-}
-
-.btn {
-        font-family: 'Roboto';
-            color: var(--primery-text-color);
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.62;
-            letter-spacing: 0.03em;
-width: 125px;
-    height: 38px;
-    top: 174px;
-}
-
-.control {
-        font-family: 'Roboto';
-            color: var(--primery-text-color);
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.62;
-            letter-spacing: 0.03em;
-    width: 112px;
-        height: 38px;
-        top: 174px;
-}
-
-.dropdown {
-        font-family: 'Roboto';
-            color: var(--primery-text-color);
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.62;
-            letter-spacing: 0.03em;
-    width: 103px;
-        height: 38px;
-        top: 174px;
-}
-
-.type-btn {
-    font-family: 'Roboto';
-    color: var(--primery-text-color);
-        font-style: normal;
-        font-weight: 500;
+         background-color: var(--blue-color);
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
-    width: 130px;
+}
+
+.btn {
+            color: var(--primery-text-color);
+            background: var(--button-background-color);
+            font-size: 16px;
+            line-height: 1.62;
+            letter-spacing: 0.03em;
+            width: 125px;
+             height: 38px;
+             top: 174px;
+}
+
+.control {
+            color: var(--primery-text-color);
+            background: var(--button-background-color);
+            font-size: 16px;
+            line-height: 1.62;
+            letter-spacing: 0.03em;
+            width: 112px;
+             height: 38px;
+            top: 174px;
+}
+
+.dropdown {
+            color: var(--primery-text-color);
+            background: var(--button-background-color);
+            font-size: 16px;
+            line-height: 1.62;
+            letter-spacing: 0.03em;
+            width: 103px;
+             height: 38px;
+             top: 174px;
+}
+
+.type-btn {
+        color: var(--primery-text-color);
+        background: var(--button-background-color);
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        width: 130px;
         height: 38px;
         top: 174px;
 }
 
-.main {
-    font-family: 'Roboto';
-    background: var(--page-color);
-    color: var(--primery-text-color);
-        font-style: normal;
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-
-}
-
 .aside {
-    font-family: 'Roboto';
-    color: var(--sekondary-text-color);
-        font-style: normal;
+     color: var(--sekondary-text-color);
         font-weight: 400;
         font-size: 16px;
         line-height: 1.87;
