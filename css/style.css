@@ -168,7 +168,6 @@ color: var(--primery-text-color);
 .section {
     background: var(--page-color);
 font-family: 'Roboto';
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -184,7 +183,7 @@ font-family: 'Roboto';
 }
 /* УВАГА ДО ДЕТАЛЕЙ */
 
-.excerpt {
+.headline {
 font-family: 'Roboto';
     font-weight: 700;
     font-size: 14px;
@@ -201,7 +200,7 @@ font-family: 'Roboto';
 }
 
 /* ПУНКТУАЛЬНІСТЬ */
-.quote {
+.headline {
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 14px;
@@ -218,7 +217,7 @@ font-family: 'Roboto';
 }
 
 /* ПЛАНУВАННЯ */
-.slogan {
+.headline {
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 14px;
@@ -235,7 +234,7 @@ font-family: 'Roboto';
 }
 
 /* СУЧАСНІ ТЕХНОЛОГІЇ */
-.tehnology {
+.headline {
     font-family: 'Roboto';
         font-weight: 700;
         font-size: 14px;
@@ -252,25 +251,16 @@ font-family: 'Roboto';
 }
 
 /* Чим ми займаємося */
-.subject {
-            color: var(--primery-text-color);
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
-        
-}
-
 /* Наша команда */
-
-.bg {
-    font-family: 'Roboto';
-    color: var(--primery-text-color);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.16;
-        text-align: center;
-        letter-spacing: 0.03em;
+.section-bg {
+font-family: 'Roboto';
+color: var(--primery-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+        
 }
 
 .section-title {
@@ -364,6 +354,7 @@ color: var(--primery-text-color);
 .button {
         font-family: 'Roboto';
          background-color: var(--blue-color);
+         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
@@ -373,6 +364,7 @@ color: var(--primery-text-color);
          font-family: 'Roboto';
          color: var(--primery-text-color);
             background: var(--button-background-color);
+            font-weight: 500;
             font-size: 16px;
             line-height: 1.62;
             letter-spacing: 0.03em;
@@ -383,6 +375,7 @@ color: var(--primery-text-color);
             font-family: 'Roboto';
             color: var(--primery-text-color);
             background: var(--button-background-color);
+            font-weight: 500;
             font-size: 16px;
             line-height: 1.62;
             letter-spacing: 0.03em;
@@ -393,6 +386,7 @@ color: var(--primery-text-color);
             font-family: 'Roboto';
             color: var(--primery-text-color);
             background: var(--button-background-color);
+            font-weight: 500;
             font-size: 16px;
             line-height: 1.62;
             letter-spacing: 0.03em;
@@ -403,6 +397,7 @@ color: var(--primery-text-color);
         font-family: 'Roboto';
         color: var(--primery-text-color);
         background: var(--button-background-color);
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         letter-spacing: 0.03em;
