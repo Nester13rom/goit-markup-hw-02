@@ -500,10 +500,17 @@ color: var(--primery-text-color);
 
 
 
+
 .section-button {
     display: flex;
     margin-top: 94px;
     justify-content: center;
+}
+
+/* Курсор */
+.nav-button .section-button :hover,
+.nav-button .section-button :focus {
+cursor: pointer;
 }
 
 .button {
@@ -586,6 +593,8 @@ color: var(--primery-text-color);
 }
 
 
+
+
 /* параграф */
 .aside {
 
@@ -611,18 +620,19 @@ color: var(--primery-text-color);
 /* Портфоліо */
 
 .userpic {
+
+    padding-left: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+
 
 }
 
 .flex-elements {
-
     width: 370;
-
-
+    margin-right: 30px;
     margin-bottom: 30px;
+
 }
 
 .flex-elements:nth-child(3n) {
@@ -632,6 +642,5 @@ color: var(--primery-text-color);
 .flex-elements:nth-last-child(-n+3) {
     margin-bottom: 0;
 }
-
 
 
